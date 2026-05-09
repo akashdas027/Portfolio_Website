@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akash Das | Creative Front-End Developer</title>
+  
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== Starfield Background Canvas ===== -->
+  <canvas id="starfield"></canvas>
+
+  <!-- ===== Navigation ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">ACD<span>.</span></a>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <i class="fas fa-moon" id="theme-toggle"></i>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-container">
+      <h1 class="hero-title">
+      Akash Chandra Das
+      </h1>
+      <p class="hero-subtitle">
+        Creative Developer & UI/UX Visionary
+      </p>
+      <p class="hero-tagline">I craft immersive digital experiences from concept to deployment.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary-btn">
+          <i class="fas fa-rocket"></i> View My Work
+        </a>
+        <a href="AKASH_RESUME.pdf" download class="btn secondary-btn">
+          <i class="fas fa-download"></i> Get Resume
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            With a passion for blending beautiful design with clean, efficient code, I am a front-end developer dedicated to building intuitive and dynamic user interfaces. My journey in tech is driven by a curiosity for how things work and a desire to create applications that are not only functional but also delightful to use.
+          </p>
+          <p>
+            From pixel-perfect layouts to complex JavaScript logic, I thrive on challenges and am constantly expanding my skill set to stay at the forefront of web technology.
+          </p>
+        </div>
+        <div class="about-img">
+          <div class="img-placeholder">
+             <img src="PIC2.jpeg" alt="Image" width="300px" height="300px" style="border-radius: 90%;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Core Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-card interactive-card">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <h3>HTML5</h3>
+          <p>Semantic & Accessible Markup</p>
+        </div>
+        <div class="skill-card interactive-card">
+          <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+          <h3>CSS3 & SASS</h3>
+          <p>Animations & Responsive Design</p>
+        </div>
+        <div class="skill-card interactive-card">
+          <div class="skill-icon"><i class="fab fa-js"></i></div>
+          <h3>JavaScript (ES6+)</h3>
+          <p>DOM Manipulation & Interactivity</p>
+        </div>
+        <div class="skill-card interactive-card">
+            <div class="skill-icon"><i class="fas fa-code"></i></div>
+            <h3>C/C++ Programming</h3>
+            <p>Procedural & System Logic</p>
+        </div>
+        <div class="skill-card interactive-card">
+            <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+            <h3>Python</h3>
+            <p>Relational Database Management</p>
+        </div>
+        <div class="skill-card interactive-card">
+            <div class="skill-icon"><i class="fas fa-palette"></i></div>
+            <h3>UI/UX Principles</h3>
+            <p>Figma & User-Centric Design</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Cosmic Creations</h2>
+      <div class="projects-grid">
+        <div class="project-card interactive-card">
+          <div class="project-img-placeholder"><img src="HANDS.jpeg" alt="" width="500px" height="600px"></div>
+          <div class="project-info">
+            <h3>Quantum Hands</h3>
+            <p style="font-weight: 600;">The Dynamic Hand Project combines mechanics, electronics, and programming to create a functional robotic hand.</p>
+            <div class="tech-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Py library</span></div>
+            <a href="https://akashdas027.github.io/Quantum_Hands/" class="btn small-btn">Launch Project <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-card interactive-card">
+          <div class="project-img-placeholder"><img src="ECOM.jpeg" alt="" width="400px" height="600px"></div>
+          <div class="project-info">
+            <h3>E-Commerce Clone</h3>
+            <p style="font-weight: 600;">Built a responsive e-commerce website clone with a clean and modern UI, focusing on smooth user experience across all devices.</p>
+            <div class="tech-stack"><span>HTML</span><span>CSS</span></div>
+            <a href="https://akashdas027.github.io/E-COMMERCE_Clone/index.html" class="btn small-btn">View Live <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="project-card interactive-card">
+          <div class="project-img-placeholder"><img src="TYP.jpeg" alt="" width="400px" height="600px"></div>
+          <div class="project-info">
+            <h3>KeyBlaze</h3>
+            <p style="font-weight: 600;">A modern approach to productivity, the Typing Speed Calculator is an interactive web app that measures typing speed, accuracy, and errors in real time. </p>
+            <div class="tech-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://akashdas027.github.io/Typing_Speed_Calculator/" class="btn small-btn">Launch Project <i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-subtitle">Have a project idea or want to collaborate? I'd love to hear from you.</p>
+      <form id="contact-form" class="contact-form">
+        <div class="form-group-row">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <span class="error" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <span class="error" id="email-error"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+          <span class="error" id="message-error"></span>
+        </div>
+        <button type="submit" class="btn primary-btn">
+          Send Message <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://github.com/akashdas027" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/akashdas027/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:akashcdas027@gmail.com" target="_blank" aria-label="Twitter"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://dribbble.com" target="_blank" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+        </div>
+        <p>&copy; 2026 Akash Das. Designed & Built with care using modern technologies</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Scroll to Top ===== -->
+  <a id="scroll-top" class="scroll-top" href="#hero">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
