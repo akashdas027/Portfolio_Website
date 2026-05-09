@@ -87,7 +87,7 @@ HTML • CSS • JavaScript
 # 📸 Portfolio Preview
 
 <p align="center">
-  <img src="C:\Users\akash\OneDrive\Desktop\PF\PFSS.png" />
+  <img src="C:\Users\akash\OneDrive\Desktop\PF\PFSS.png width:200px height: 150px" />
 </p>
 
 ---
