@@ -84,34 +84,6 @@ HTML • CSS • JavaScript
 
 ---
 
-# 📸 Portfolio Preview
-
-<p align="center">
-  <img src="C:\Users\akash\OneDrive\Desktop\PF\PFSS.png" />
-</p>
-
----
-
-# 📊 GitHub Stats
-
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=tokyonight"/>
-
-</p>
-
----
-
-# 🔥 GitHub Streak
-
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=YOURUSERNAME&theme=tokyonight" />
-</p>
-
----
-
 # 🏆 Achievements & Goals
 
 🚀 Building impactful projects  
