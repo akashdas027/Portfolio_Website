@@ -229,7 +229,18 @@ section.visible {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
+  animation: glow 3s infinite alternate;
 }
+
+@keyframes glow {
+      from {
+        filter: drop-shadow(0 0 5px cyan);
+      }
+      to {
+        filter: drop-shadow(0 0 25px #ff00ff);
+      }
+    }
+
 .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 400;
