@@ -87,7 +87,7 @@ HTML • CSS • JavaScript
 # 📸 Portfolio Preview
 
 <p align="center">
-  <img src="https://via.placeholder.com/1000x500.png?text=Your+Portfolio+Preview" width="100%" />
+  <img src="C:\Users\akash\OneDrive\Desktop\PF\PFSS.png" />
 </p>
 
 ---
