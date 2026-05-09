@@ -5,7 +5,7 @@
 </p>
 
 <h3 align="center">
-💻 Frontend Developer | 🚀 Tech Enthusiast | 🎮 Future Game Developer
+💻 Frontend Developer | 🚀 Tech Enthusiast | 👾 Thrives on Problem-Solving
 </h3>
 
 <p align="center">
